@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DC]">
+  <parameter name="PASSWORD" value="mar7Quee"/>
+  <parameter name="ENVIRONMENT" value="LIVE"/>
+  <parameter name="USERNAME" value="Alison.m.bell@hotmail.co.uk"/>
+  <parameter name="DRIVER_NAME" value="Android"/>
+  <test name="Login(failed)">
+    <parameter name="PASSWORD" value="mar7Quee"/>
+    <parameter name="ENVIRONMENT" value="LIVE"/>
+    <parameter name="USERNAME" value="Alison.m.bell@hotmail.co.uk"/>
+    <parameter name="DRIVER_NAME" value="Android"/>
+    <classes>
+      <class name="com.tesco.clubcardmobile.tests.NoNetworkTest">
+        <methods>
+          <include name="verifyFAQScreen"/>
+          <include name="verifyRegistrationFirstScreen"/>
+          <include name="verifyTillScreen"/>
+          <include name="setUp"/>
+          <include name="verifyRegistrationSecondScreen"/>
+          <include name="verifyStoreFinderScreen"/>
+          <include name="verifyCouponsScreen"/>
+          <include name="tearDown"/>
+          <include name="verifyOffersScreen"/>
+          <include name="verifySignInScreen"/>
+          <include name="verifyHomeScreen"/>
+          <include name="verifyProfileScreen"/>
+          <include name="verifySecureSignInScreen"/>
+        </methods>
+      </class> <!-- com.tesco.clubcardmobile.tests.NoNetworkTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [DC] -->

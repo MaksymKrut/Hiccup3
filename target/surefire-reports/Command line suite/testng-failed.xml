@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.tesco.clubcardmobile.tests.UserJourneyTest">
+        <methods>
+          <include name="userJourney1"/>
+        </methods>
+      </class> <!-- com.tesco.clubcardmobile.tests.UserJourneyTest -->
+      <class name="com.tesco.clubcardmobile.tests.HomeTest">
+        <methods>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- com.tesco.clubcardmobile.tests.HomeTest -->
+      <class name="com.tesco.clubcardmobile.tests.NoNetworkTest">
+        <methods>
+          <include name="verifyCouponsScreen"/>
+          <include name="verifyFAQScreen"/>
+          <include name="tearDown"/>
+          <include name="verifyOffersScreen"/>
+          <include name="verifyRegistrationFirstScreen"/>
+          <include name="verifySignInScreen"/>
+          <include name="verifyTillScreen"/>
+          <include name="verifyRegistrationSecondScreen"/>
+          <include name="verifyStoreFinderScreen"/>
+          <include name="verifyHomeScreen"/>
+          <include name="verifyProfileScreen"/>
+          <include name="verifySecureSignInScreen"/>
+        </methods>
+      </class> <!-- com.tesco.clubcardmobile.tests.NoNetworkTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

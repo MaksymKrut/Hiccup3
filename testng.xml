@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DC">
+	<test name="Login">
+	<parameter name="DRIVER_NAME" value="Android"/>
+	<parameter name="ENVIRONMENT" value="LIVE"/>
+	<parameter name="USERNAME" value="Alison.m.bell@hotmail.co.uk"/>
+	<parameter name="PASSWORD" value="mar7Quee"/>
+		<classes>
+			<!-- <class name="com.tesco.clubcardmobile.testcases.HomeTest" /> -->
+			<!-- <class name="com.tesco.clubcardmobile.testcases.UserJourneyTest" /> -->
+			<class name="com.tesco.clubcardmobile.tests.NoNetworkTest" />
+			
+			
+		</classes>
+	</test>
+</suite>
